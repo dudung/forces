@@ -1,3 +1,8 @@
-import forces.zero as z
+import sys,os
+src = os.path.join(os.getcwd(), "src")
+sys.path.append(src)
 
-print(z.zero())
+from forces.constant import zero
+
+print("forces.constant.zero")
+print(zero())
