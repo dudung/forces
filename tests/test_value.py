@@ -12,3 +12,6 @@ print(value(5))
 
 print("forces.constant.value")
 print(value([3, 4]))
+
+print("forces.constant.value")
+print(value([10]))
