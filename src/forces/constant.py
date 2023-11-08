@@ -7,7 +7,9 @@ def value(force):
     if isinstance(force, list):
         if len(force) == 3:
             return np.array(force)
-        else:
+        elif len(force) == 2:
             return np.array(force + [0])
+        else:
+            return np.array(force + [0, 0])
     else:
         return np.array([force, 0, 0])
