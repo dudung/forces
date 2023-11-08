@@ -5,4 +5,10 @@ sys.path.append(src)
 from forces.constant import value
 
 print("forces.constant.value")
-print(value(2, 1, 2))
+print(value([2, 1, 2]))
+
+print("forces.constant.value")
+print(value(5))
+
+print("forces.constant.value")
+print(value([3, 4]))
